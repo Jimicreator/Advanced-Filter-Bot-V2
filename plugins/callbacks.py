@@ -52,7 +52,7 @@ async def cb_handler(client, query):
                 ],
                 [
                     InlineKeyboardButton("BOT Channel😎 ", url="https://t.me/Jimi_Bots"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/Jimi_Bots/6")
+                    InlineKeyboardButton("Share Me", url="https://t.me/share/url?url=https://t.me/UltimateFilter_Bot")
                 ]
             ]
         )
@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "Share This Bot", url="https://t.me/share/url?url=https://t.me/UltimateFilter_Bot")
+                        "Support Us", url="https://t.me/Jimi_Bots")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
